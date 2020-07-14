@@ -20,6 +20,6 @@ def find_valid_calls(planeteer_calls)
   
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
-  valid_calls.detect { |call| call = planeteer_calls }
+  valid_calls.find_first { |call| call = planeteer_calls }
   
 end
